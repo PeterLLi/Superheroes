@@ -278,6 +278,8 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Hero\Create.cshtml" />
     <Content Include="Views\Hero\Delete.cshtml" />
+    <Content Include="Views\Hero\Edit.cshtml" />
+    <Content Include="Views\Hero\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
