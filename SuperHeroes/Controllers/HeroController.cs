@@ -32,10 +32,11 @@ namespace SuperHeroes
             return View(superHero);
         }
 
-        public ActionResult Delete(int id) {
+        public ActionResult Delete(int id)
+        {
             var deleteHeroes = (from h in db.SuperHeroes
-                              where h.HeroId == id
-                              select h).FirstOrDefault();
+                                where h.HeroId == id
+                                select h).FirstOrDefault();
             return View(deleteHeroes);
         }
 
@@ -74,12 +75,24 @@ namespace SuperHeroes
             superHeroInDB.HeroPrimaryAbility = superHero.HeroPrimaryAbility;
             superHeroInDB.HeroSecondaryAbility = superHero.HeroSecondaryAbility;
             superHeroInDB.CatchPhrase = superHero.CatchPhrase;
-            if (ModelState.IsValid)
-            {
+            if (ModelState.IsValid) {
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
             return View();
+        }
+
+        public ActionResult Details(int? id) {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            SuperHero superHero = db.SuperHeroes.Find(id);
+            if (superHero == null)
+            {
+                return HttpNotFound();
+            }
+            return View(superHero);
         }
     }
 }
