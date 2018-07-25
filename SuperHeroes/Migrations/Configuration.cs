@@ -1,4 +1,4 @@
-namespace SuperHeroes
+namespace SuperHeroes.Migrations
 {
     using System;
     using System.Data.Entity;

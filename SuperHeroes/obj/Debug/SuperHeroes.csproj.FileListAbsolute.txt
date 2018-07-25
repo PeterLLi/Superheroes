@@ -237,10 +237,9 @@ C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\bin\Microsoft.AI.WindowsServe
 C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\bin\Microsoft.AI.Web.xml
 C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.csprojAssemblyReference.cache
-C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.Migrations.SuperHeroes.resources
-C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.superHeroestest.resources
-C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.csproj.GenerateResource.cache
 C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.csproj.CoreCompileInputs.cache
 C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.csproj.CopyComplete
 C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.dll
 C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.pdb
+C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.Migrations.initialmigration.resources
+C:\Users\peterli\Documents\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.csproj.GenerateResource.cache

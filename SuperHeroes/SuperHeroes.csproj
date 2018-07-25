@@ -201,13 +201,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201807241637220_SuperHeroes.cs" />
-    <Compile Include="Migrations\201807241637220_SuperHeroes.Designer.cs">
-      <DependentUpon>201807241637220_SuperHeroes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201807241643077_superHeroestest.cs" />
-    <Compile Include="Migrations\201807241643077_superHeroestest.Designer.cs">
-      <DependentUpon>201807241643077_superHeroestest.cs</DependentUpon>
+    <Compile Include="Migrations\201807242155442_initial migration.cs" />
+    <Compile Include="Migrations\201807242155442_initial migration.Designer.cs">
+      <DependentUpon>201807242155442_initial migration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -280,6 +276,7 @@
     <Content Include="Views\Hero\Delete.cshtml" />
     <Content Include="Views\Hero\Edit.cshtml" />
     <Content Include="Views\Hero\Details.cshtml" />
+    <Content Include="Views\Hero\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -298,11 +295,8 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201807241637220_SuperHeroes.resx">
-      <DependentUpon>201807241637220_SuperHeroes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201807241643077_superHeroestest.resx">
-      <DependentUpon>201807241643077_superHeroestest.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201807242155442_initial migration.resx">
+      <DependentUpon>201807242155442_initial migration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
